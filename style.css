@@ -1,0 +1,123 @@
+/* MAIN COLOR:#0b7285 
+GRAY COLOR: #343a40 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #343a40;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header,
+section {
+  margin-bottom: 150px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+.company-name {
+  flex-grow: 2;
+  margin-left: 10px;
+  font-family: "prompt";
+  font-weight: 600;
+  font-size: 24px;
+  color: #099268;
+}
+
+.menu-btn:link,
+.menu-btn:visited {
+  text-decoration: none;
+  color: #343a40;
+  font-size: 14px;
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+.menu-btn:hover,
+.menu-btn:active {
+  text-decoration: none;
+}
+
+header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 60px;
+  margin-top: 60px;
+}
+
+.header-text-box {
+  align-self: center;
+}
+
+.header-text {
+  margin-bottom: 48px;
+}
+
+h1 {
+  margin-bottom: 18px;
+  font-size: 44px;
+  line-height: 1.1;
+  letter-spacing: -1px;
+}
+
+img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.btn:link,
+.btn:visited {
+  background-color: #ffa94d;
+  color: #f8f9fa;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 10px 15px;
+
+  /* display: inline-block; */
+  border-radius: 100px;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #ffc078;
+}
+
+.grid-3-columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 60px;
+}
+
+.benefits-icon {
+  width: 50px;
+  height: 50px;
+  stroke: #20c997;
+  margin-bottom: 18px;
+}
+
+h2 {
+  margin-bottom: 36px;
+  font-size: 36px;
+}
+
+.features-title {
+  margin-bottom: 18px;
+  font-weight: 700;
+  font-size: 20px;
+}
